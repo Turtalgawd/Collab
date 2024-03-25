@@ -5,5 +5,31 @@ body {
 }
 
 h1 {
-    color: blue;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#09ccea, #10c322);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+p {
+    font-size: 100px;
+    background: -webkit-image-set('https://media.tenor.com/ByHfwBHRhkIAAAAM/frog-frog-laughing.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+table{
+    font-size: 100px;
+    background: -webkit-repeating-linear-gradient(brown, black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#special {
+    color: black;
 }
