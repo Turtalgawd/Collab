@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: white;
+            background-color: #111111;
+            font-family: sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        #container {
+            padding: 0 10em;
+        }
+        #main {
+            margin-top: 9em;
+        }
+        #features {
+            padding-top: 6em;
+            margin-bottom: 9em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .title {
+            font-size: 2.5em;
+            margin: 1em;
+        }
+        .description {
+            font-size: 1.1em;
+            margin: 1.5em;
+        }
+        .note {
+            color: grey;
+        }
+        .button {
+            color: black;
+            background-color: #369cff;
+            border: 0;
+            font-size: 1.2em;
+            font-weight: 500;
+            padding: 0.8em 2em;
+            border-radius: 30px;
+            margin: 1em;
+        }
+        .card {
+            width: 250px;
+        }
+        #navigation {
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em 3em;
+            background-color: #222222;
+        }
+        #navigation .button {
+            font-size: initial;
+            margin: 0;
+            color: #369cff;
+            background-color: transparent;
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="navigation">
+        <img height="30" src="https://www.gstatic.com/youtube/img/promos/growth/ytp_lp2_logo_phone_landscape_300x44.png" alt="">
+        <button class="button">Sign in</button>
+    </div>
+    <div id="container">
+        <div id="main">
+            <img src="https://www.gstatic.com/youtube/img/promos/growth/ytp_lp2_logo_phone_landscape_300x44.png" alt="">
+            <h1 class="title">All of YouTube. No interruptions.</h1>
+            <p class="description">Youtube and YouTube Music ad-free, offline, and in the background</p>
+            <p class="description">1-month free trial &bull; Then SGD 11.98/month &bull; Cancel at any time</p>
+            <button class="button">Try it for free</button>
+            <p class="description">Or save money with a family or student plan</p>
+            <small class="note">You'll be reminded 7 days before your trial ends. Recurring billing. Free-of-charge trial for eligible new members only.</small>
+        </div>
+        <div id="features">
+            <div class="card">
+                <h3>Ad-free</h3>
+                <p>Ad-free so you can immerse yourself in your favourite videos without interruption</p>
+            </div>
+            <div class="card">
+                <h3>Ad-free</h3>
+                <p>Download videos to watch later when you're offline or on the go</p>
+            </div>
+            <div class="card">
+                <h3>Ad-free</h3>
+                <p>Background play so you can watch while using other apps or with your screen locked</p>
+            </div>
+            <div class="card">
+                <h3>Ad-free</h3>
+                <p>Stream all the music that you want to hear, ad-free on the YouTube Music app</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
