@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-color: #111111;
+    background: -webkit-linear-gradient(green, black);
     font-family: sans-serif;
     text-align: center;
     margin: 0;
