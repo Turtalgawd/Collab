@@ -37,7 +37,7 @@ body {
 	left: 0;
 	height: 600px;
 	float: left;
-	filter: greyscale(100%);
+	filter: grayscale(100%);
 }
 
 #img2 {
