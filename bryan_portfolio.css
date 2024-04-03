@@ -1,0 +1,47 @@
+body {
+	background-color: blue;
+}
+
+.top {
+  height: 600px;
+  width: 50%;
+  position: fixed;
+  background-color: white;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#img1 {
+	width: 33%;
+	left: 0;
+	height: 600px;
+	float: left;
+}
+
+#img2 {
+	width: 33%;
+	left: 33%;
+	height: 600px;
+	float: left;
+}
+
+#img3 {
+	width: 33%;
+	left: 66%;
+	height: 600px;
+	float: left;
+}
