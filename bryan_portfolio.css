@@ -37,6 +37,7 @@ body {
 	left: 0;
 	height: 600px;
 	float: left;
+	filter: greyscale(100%);
 }
 
 #img2 {
@@ -44,6 +45,7 @@ body {
 	left: 33%;
 	height: 600px;
 	float: left;
+	filter: invert(100%)
 }
 
 #img3 {
@@ -51,4 +53,5 @@ body {
 	left: 66%;
 	height: 600px;
 	float: left;
+	transform: scaleY(-1);
 }
