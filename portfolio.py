@@ -6,9 +6,9 @@ app = flask.Flask(__name__)
 def homepage():
     return flask.render_template('temphtmlpage.html')
 
-@app.route('/info')
-def info():
-    return flask.render_template('bryan_portfolio.html')
+@app.route('/<name>')
+def info(name):
+    return flask.render_template(f'{name}_portfolio.html')
 
 
 app.run(debug=True)
