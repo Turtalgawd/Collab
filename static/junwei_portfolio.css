@@ -49,19 +49,17 @@ body {
   }
 
 #img1 {
-	width: 33%;
+	width: 50%;
 	left: 0;
 	height: 100vh;
 	float: left;
-	filter: grayscale(100%);
 }
 
 #img2 {
-	width: 33%;
-	left: 33%;
+	width: 50%;
+	left: 0;
 	height: 100vh;
 	float: left;
-	filter: invert(100%)
 }
 
 #img3 {
@@ -71,3 +69,11 @@ body {
 	float: left;
 	transform: scaleY(-1);
 }
+
+.instagram{ width:100px; height:100px;
+	background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+	}
