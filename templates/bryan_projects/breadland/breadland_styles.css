@@ -1,0 +1,22 @@
+body {
+	background-image: url(H:/images/baguette.jpg);
+	}
+
+table, th, td {
+	border: 2px dotted blue;
+	border-collapse: collapse;
+}
+
+h1 {
+	color: hotpink;
+	font-family: 'Comic Sans MS';
+}
+
+#subtitle {
+	color: lime;
+	font-family: 'Lucida Handwriting';
+}
+
+#newsform {
+	background-color: beige;
+}
