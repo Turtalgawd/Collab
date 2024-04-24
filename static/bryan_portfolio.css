@@ -71,3 +71,8 @@ body {
 	float: left;
 	transform: scaleY(-1);
 }
+
+.about {
+	background-color: beige;
+	text-align: center;
+}
