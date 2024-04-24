@@ -10,5 +10,5 @@ def homepage():
 def info(name):
     return flask.render_template(f'{name}_portfolio.html')
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
