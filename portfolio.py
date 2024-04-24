@@ -13,7 +13,7 @@ def info(name):
 
 @app.route('/clicker')
 def clicker():
-    return flask.render_template('bryan_projects/clicker!/clicker.html')
+    return flask.render_template('bryan_projects/clicker/clicker.html')
 
 @app.route('/bread')
 def bread():
