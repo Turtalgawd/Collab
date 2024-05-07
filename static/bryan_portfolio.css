@@ -76,3 +76,11 @@ body {
 	background-color: beige;
 	text-align: center;
 }
+
+.box {
+	margin: auto;
+	border-style: solid;
+	background-color: lightgreen;
+	text-align: center;
+	width: 75%;
+}
