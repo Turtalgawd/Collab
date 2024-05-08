@@ -73,14 +73,14 @@ body {
 }
 
 .about {
-	background-color: beige;
+	background: linear-gradient(to right, lightgreen, hotpink);
 	text-align: center;
 }
 
 .box {
 	margin: auto;
 	border-style: solid;
-	background-color: lightgreen;
 	text-align: center;
 	width: 75%;
+	background: linear-gradient(to left, lightgreen, hotpink);
 }
